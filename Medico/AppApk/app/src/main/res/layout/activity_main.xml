@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/backmedi"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="253dp"
+        android:layout_height="50dp"
+        android:text="Seja Bem Vindo!"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/Camponome"
+        android:layout_width="255dp"
+        android:layout_height="58dp"
+        android:inputType="text"
+        android:hint="Nome"></EditText>
+
+    <EditText
+        android:id="@+id/Campopeso"
+        android:layout_width="255dp"
+        android:layout_height="58dp"
+        android:inputType="number"
+        android:hint="Peso"></EditText>
+
+    <EditText
+        android:id="@+id/CampoCPF"
+        android:layout_width="255dp"
+        android:layout_height="58dp"
+        android:inputType="number"
+        android:hint="CPF"></EditText>
+
+    <Button
+        android:id="@+id/btAvancar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="proximaTela"
+        android:text="Avancar">
+
+    </Button>
+
+</LinearLayout>
