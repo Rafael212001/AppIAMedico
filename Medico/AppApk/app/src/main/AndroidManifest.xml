@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Sintomas"></activity>
+        <activity
+            android:name=".PossivelDoenca"
+            android:exported="true" />
+        <activity android:name=".Sintomas" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -96,6 +96,8 @@ public class Sintomas extends AppCompatActivity {
 
         try {
             enviarDados(selecionados);
+            Intent intent = new Intent(this, PossivelDoenca.class);
+            startActivity(intent);
         } catch (Exception ex) {
             ex.printStackTrace();
             Toast.makeText(this, "Erro no envio:" + ex.getMessage(), Toast.LENGTH_LONG).show();
