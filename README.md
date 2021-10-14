@@ -1,5 +1,5 @@
 # AppIAMedico
-Aplicativo que usa uma IA para descobrir doença do paciente
+Aplicativo que usa uma IA para descobrir possivel doença do paciente
 
 # Sobre o projeto
 Nosso aplicativo tem como objetivo ajudar os usuarios a descobrirem a possivel doença que eles tem através de seus sintomas
@@ -21,7 +21,7 @@ Finalizar o arquivo CSV
 
 # Autores e professor
 Bruno F. Silva /
-Falipe A. Bispo  / 
+Felipe A. Bispo  / 
 Rafael T. Ferreira /
 Professor: Vandeir Aniceto /
 
