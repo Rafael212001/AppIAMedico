@@ -20,8 +20,8 @@ Finalizar o servidor
 Finalizar o arquivo CSV
 
 # Autores e professor
-Bruno F. Silva
-Falipe A. Bispo
-Rafael T. Ferreira
-Professor: Vandeir Aniceto
+Bruno F. Silva /
+Falipe A. Bispo  / 
+Rafael T. Ferreira /
+Professor: Vandeir Aniceto /
 
