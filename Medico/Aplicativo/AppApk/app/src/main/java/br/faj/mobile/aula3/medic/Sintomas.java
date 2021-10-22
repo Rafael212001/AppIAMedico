@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.SparseBooleanArray;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -126,9 +127,11 @@ public class Sintomas extends AppCompatActivity {
                         return null;
                     }
                 }
+
             };
             requestQueue.add(sr);
         } catch (Exception ex) {
+            Log.e("t", ex.getMessage());
             Toast.makeText(this, "Erro ao decodificar dados",
                     Toast.LENGTH_LONG).show();
             ex.printStackTrace();
@@ -136,33 +139,35 @@ public class Sintomas extends AppCompatActivity {
     }
 
     private void tratarRespostaErro(VolleyError error) {
+        Log.e("t", error.getMessage());
         Toast.makeText(this, "Decodificar o JSON de resposta" + error.getMessage(),
                 Toast.LENGTH_LONG).show();
         error.printStackTrace();
     }
 
     private void tratarRespostaServidor(String jsonResp) {
+        Log.i("t", jsonResp);
         Toast.makeText(this, "Erro no envio do JSON:" + jsonResp,
                 Toast.LENGTH_LONG).show();
     }
 
 
 
-    private String gerarJSON(List<ClassSintomas> selecionados) throws Exception {
+   private String gerarJSON(List<ClassSintomas> selecionados) throws Exception {
         SharedPreferences sharedPref = getSharedPreferences("LOGIN", Context.MODE_PRIVATE);
-        String nome = sharedPref.getString("nome", "Não definido");
-        int peso = sharedPref.getInt("peso", 10);
-        String cpf = sharedPref.getString("cpf", "000.000.000");
+       // String nome = sharedPref.getString("nome", "Não definido");
+       // int peso = sharedPref.getInt("peso", 10);
+        //String cpf = sharedPref.getString("cpf", "000.000.000");
 
         JSONObject jsonObj = new JSONObject();
-        jsonObj.put("nome", nome);  //Obter do SheredPreferences
-        jsonObj.put("peso", peso);
-        jsonObj.put("cpf", cpf);
+        //jsonObj.put("nome", nome);  //Obter do SheredPreferences
+        //jsonObj.put("peso", peso);
+        //jsonObj.put("cpf", cpf);
         JSONArray sintomasArray = new JSONArray();
         for (ClassSintomas s : selecionados) {
             JSONObject sObj = new JSONObject();
-            sObj.put("nome", s.getNome());
-            sObj.put("valor", 4);
+           sObj.put("nome", s.getNome());
+            //sObj.put("valor", 4);
             sintomasArray.put(sObj);
         }
         jsonObj.put("sintomas", sintomasArray);
@@ -170,7 +175,11 @@ public class Sintomas extends AppCompatActivity {
     }
 
 
+
+
     public String getURL() {
-        return "http://10.10.10.71:8080/sintomas";
+        return "http://127.0.0.1:5000/";
     }
+    // {
+    //        return "http://10.10.10.71:8080/sintomas";
 }

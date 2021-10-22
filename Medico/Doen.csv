@@ -3,14 +3,14 @@ AVC,confusão mental,alteração na visão,fraqueza,alteração da fala,ácido a
 Gripe,Tosse,Congestão nasal,Dor de cabeça,Dor de garganta,Multigripe	
 Dengue,Febre,Dor no corpo,Dor de cabeça,Manchas,Dipirona	
 Pneumonia,Febre,Dor no peito,Falta de ar,Tosse,Zanamivir	
-Tuberculose,Febre vespertina,Sudorese noturna,Emagrecimento,Fadiga,Estreptomicina/Etambutol/Isoniazida	
-Lepra,Inchaço da região,Perda da capacidade de suar,Lesões no corpo,Pele ressecada,Rifampicina/Dapsona/Clofazimina	
-Difteria,Dor de garganta,Glânglios inchados,Palidez,Febre,Eritromicina/Paracetamol/Penicilina	
-Coqueluche,Corrimento Nasal,Tosse Seca,Febre,Vômito,Azitromicina/Eritromicina/Claritromicina	
-Tétano,Espasmos musculares,Feridas Infectadas,Dificuldade para engolir,Músculos da barriga duros doloridos,Metronidazol/Penicilina/Doxiciclina	
-Tracoma,Fotofobia,Prurido,Vermelhidão nos olhos,Secreção,Azitromicina/Tetraciclina/Protectina	
-Sífilis,Descamação da pele,Ínguas em todo o corpo,Manchas vermelhas na pele,Dor de cabeça,Penicilina/Doxiciclina/Benzetacil 	
-Sarampo,Manchas vermelhas na pele,Febre,Irritação nos olhos,Fadiga,Ibuprofeno/Leucogen/Paracetamol	
-Poliomielite,Náuseas,Constipação,Dor abdominal,Diarréia,Diclofenac/Ibuprofeno/Acetaminofen 	
-Febre Amarela,Calafrios	Dores no corpo,Febre,Náuseas,Metoclopramida/Omeprazol/Dipirona
-Raiva,Entorpecimento,Irritabilidade,Anorexia,Cefaleia/Amantadina/Biopterina/Midazolan	
+Tuberculose,Febre vespertina,Sudorese noturna,Emagrecimento,Fadiga,EstreptomicinaEtambutolIsoniazida	
+Lepra,Inchaço da região,Perda da capacidade de suar,Lesões no corpo,Pele ressecada,RifampicinaDapsonaClofazimina	
+Difteria,Dor de garganta,Glânglios inchados,Palidez,Febre,EritromicinaParacetamolPenicilina	
+Coqueluche,Corrimento Nasal,Tosse Seca,Febre,Vômito,AzitromicinaEritromicinaClaritromicina	
+Tétano,Espasmos musculares,Feridas Infectadas,Dificuldade para engolir,Músculos da barriga duros doloridos,MetronidazolPenicilinaDoxiciclina	
+Tracoma,Fotofobia,Prurido,Vermelhidão nos olhos,Secreção,AzitromicinaTetraciclinaProtectina	
+Sífilis,Descamação da pele,Ínguas em todo o corpo,Manchas vermelhas na pele,Dor de cabeça,PenicilinaDoxiciclinaBenzetacil 	
+Sarampo,Manchas vermelhas na pele,Febre,Irritação nos olhos,Fadiga,IbuprofenoLeucogenParacetamol	
+Poliomielite,Náuseas,Constipação,Dor abdominal,Diarréia,DiclofenacIbuprofenoAcetaminofen 	
+Febre Amarela,Calafrios	Dores no corpo,Febre,Náuseas,MetoclopramidaOmeprazolDipirona
+Raiva,Entorpecimento,Irritabilidade,Anorexia,CefaleiaAmantadinaBiopterinaMidazolan	
