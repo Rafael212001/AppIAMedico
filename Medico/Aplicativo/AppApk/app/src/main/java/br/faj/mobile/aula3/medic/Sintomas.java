@@ -165,10 +165,10 @@ public class Sintomas extends AppCompatActivity {
         //jsonObj.put("cpf", cpf);
         JSONArray sintomasArray = new JSONArray();
         for (ClassSintomas s : selecionados) {
-            JSONObject sObj = new JSONObject();
-           sObj.put("nome", s.getNome());
+            //JSONObject sObj = new JSONObject();
+           //sObj.put("nome", s.getNome());
             //sObj.put("valor", 4);
-            sintomasArray.put(sObj);
+            sintomasArray.put(s.getNome());
         }
         jsonObj.put("sintomas", sintomasArray);
         return jsonObj.toString();
@@ -178,7 +178,7 @@ public class Sintomas extends AppCompatActivity {
 
 
     public String getURL() {
-        return "http://127.0.0.1:5000/";
+        return "http://10.2.10.129:5000/";
     }
     // {
     //        return "http://10.10.10.71:8080/sintomas";
