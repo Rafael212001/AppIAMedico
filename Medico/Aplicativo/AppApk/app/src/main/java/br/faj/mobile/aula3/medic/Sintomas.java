@@ -147,7 +147,7 @@ public class Sintomas extends AppCompatActivity {
 
     private void tratarRespostaServidor(String jsonResp) {
         Log.i("t", jsonResp);
-        Toast.makeText(this, "Erro no envio do JSON:" + jsonResp,
+        Toast.makeText(this, "Resposta:" + jsonResp,
                 Toast.LENGTH_LONG).show();
     }
 

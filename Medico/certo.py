@@ -13,7 +13,7 @@ def postexemplo():
     sintoma3 = sintomas['sintomas'][2]
     sintoma4 = sintomas['sintomas'][3]
     
-    return jsonify(sintomas)
+    return jsonify("oi")
 
 
 if __name__ == "__main__":
