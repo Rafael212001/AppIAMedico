@@ -1,7 +1,13 @@
-#Fri Oct 22 22:08:37 BRT 2021
-base.0=C\:\\Users\\11920875\\Documents\\GitHub\\AppIAMedico\\Medico\\Aplicativo\\AppApk\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
-path.1=classes.dex
-renamed.1=classes2.dex
+#Sun Oct 24 15:58:19 BRT 2021
+path.3=12/classes.dex
+path.2=11/classes.dex
+path.1=0/classes.dex
 path.0=classes.dex
+base.3=C\:\\Users\\ingri\\OneDrive\\Documentos\\GitHub\\AppIAMedico\\Medico\\Aplicativo\\AppApk\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.2=C\:\\Users\\ingri\\OneDrive\\Documentos\\GitHub\\AppIAMedico\\Medico\\Aplicativo\\AppApk\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.1=C\:\\Users\\ingri\\OneDrive\\Documentos\\GitHub\\AppIAMedico\\Medico\\Aplicativo\\AppApk\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\ingri\\OneDrive\\Documentos\\GitHub\\AppIAMedico\\Medico\\Aplicativo\\AppApk\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\11920875\\Documents\\GitHub\\AppIAMedico\\Medico\\Aplicativo\\AppApk\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

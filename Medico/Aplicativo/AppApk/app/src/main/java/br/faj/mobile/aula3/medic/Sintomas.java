@@ -29,7 +29,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sintomas extends AppCompatActivity {
+public class Sintomas extends AppCompatActivity {   
 
 
 
@@ -178,8 +178,11 @@ public class Sintomas extends AppCompatActivity {
 
 
     public String getURL() {
-        return "http://10.2.10.129:5000/";
+        return "http://10.0.2.2:5000/";
     }
     // {
     //        return "http://10.10.10.71:8080/sintomas";
 }
+
+
+
