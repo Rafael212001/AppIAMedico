@@ -1,14 +1,28 @@
-Ôªødoenca,sintoma1,sintoma2,sintoma3,sintoma4,remedios	
-AVC,confusao mental,alteracao na visao,fraqueza,alteracao da fala,acido acetilsalicilico	
-Gripe,Tosse,Congestao nasal,Dor de cabeca,Dor de garganta,Multigripe	
-Dengue,Febre,Dor no corpo,Dor de cabeca,Manchas,Dipirona	
-Pneumonia,Febre,Dor no peito,Falta de ar,Tosse,Zanamivir	
-Tuberculose,Febre vespertina,Sudorese noturna,Emagrecimento,Fadiga,EstreptomicinaEtambutolIsoniazida	
-Lepra,Inchaco da regiao,Perda da capacidade de suar,Les√µes no corpo,Pele ressecada,RifampicinaDapsonaClofazimina	
-Difteria,Dor de garganta,Gl√¢nglios inchados,Palidez,Febre,EritromicinaParacetamolPenicilina	
-Coqueluche,Corrimento Nasal,Tosse Seca,Febre,V√¥mito,AzitromicinaEritromicinaClaritromicina	
-T√©tano,Espasmos musculares,Feridas Infectadas,Dificuldade para engolir,Musculos da barriga duros doloridos,MetronidazolPenicilinaDoxiciclina	
-Tracoma,Fotofobia,Prurido,Vermelhidao nos olhos,Secrecao,AzitromicinaTetraciclinaProtectina	
-Sifilis,Descamacao da pele,inguas em todo o corpo,Manchas vermelhas na pele,Dor de cabeca,PenicilinaDoxiciclinaBenzetacil¬†	
-Sarampo,Manchas vermelhas na pele,Febre,Irritacao nos olhos,Fadiga,IbuprofenoLeucogenParacetamol	
-
+"doenca,sintoma1,sintoma2,sintoma3,sintoma4,remedios	"
+"AVC,confusao mental,alteracao na visao,fraqueza,alteracao da fala,acido acetilsalicilico	"
+"Gripe,Tosse,Congestao nasal,Dor de cabeca,Dor de garganta,Multigripe	"
+"Dengue,Febre,Dor no corpo,Dor de cabeca,Manchas,Dipirona	"
+"Pneumonia,Febre,Dor no peito,Falta de ar,Tosse,Zanamivir	"
+"Tuberculose,Febre vespertina,Sudorese noturna,Emagrecimento,Fadiga,EstreptomicinaEtambutolIsoniazida	"
+"Lepra,Inchaco da regiao,Perda da capacidade de suar,Lesıes no corpo,Pele ressecada,RifampicinaDapsonaClofazimina	"
+"Difteria,Dor de garganta,Gl‚nglios inchados,Palidez,Febre,EritromicinaParacetamolPenicilina	"
+"Coqueluche,Corrimento Nasal,Tosse Seca,Febre,VÙmito,AzitromicinaEritromicinaClaritromicina	"
+"TÈtano,Espasmos musculares,Feridas Infectadas,Dificuldade para engolir,Musculos da barriga duros doloridos,MetronidazolPenicilinaDoxiciclina	"
+"Tracoma,Fotofobia,Prurido,Vermelhidao nos olhos,Secrecao,AzitromicinaTetraciclinaProtectina	"
+"Sifilis,Descamacao da pele,inguas em todo o corpo,Manchas vermelhas na pele,Dor de cabeca,PenicilinaDoxiciclinaBenzetacil†	"
+"Sarampo,Manchas vermelhas na pele,Febre,Irritacao nos olhos,Fadiga,IbuprofenoLeucogenParacetamol	"
+Covid-19,Perda de paladar ou olfato,Tosse,Cansaco,Febre,DexametasonaCloroquina
+Catapora,Manchas vermelhas e bolhas no corpo,Mal estar,Dor de cabeca,Cansaco,ParacetamolXarope anti histaminico
+Caxumba,Inchaco e dor nas glandulas salivares,Perda de apetite,Dor ao mastigar e engolir,Fadiga,TylenolPrednisonaIbuprofeno
+Ebola,Cefaleia,Inapetencia,Febre,Odinofagia,ZMappremdesivirmAb114REGN-EB3
+Febre Chikungunya,Dores intensas nas juntas,Pele e olhos avermelhados,Dores pelo corpo,Dor de cabeca,Cloridrato de tramadolcodeinaparacetamol 
+Herpes,Bolhas ou ulceras,Coceira,Formigamento,Disturbios gastrointestinais,Aciclovir
+Meningite,Rigidez no pescoco,Vomito,Falta de apetite,Irritabilidade,PenicilinaIbuprofeno
+Pneumonia,Tosse com ou sem catarro,Dor no peito,Falta de ar,Falta de apetite,LevofloxacinoCiprofloxacinoAmoxicilina 
+Poliomielite,Constipacao,Dor abdominal,Dor de garganta,Nausea,Vacina
+Rubeola,Ganglios aumentados,Secrecao nasal,Febre,Manchas vermelhas na pele,ParacetamolDipirona
+Variola,Febre,Dor de cabeca,Mal estar,Dores musculares,ClordoxDoxiciclina
+Leptospirose,Falta de apetite,Nauseas,Dor de cabeca,Febre,DoxiciclinaAmoxicilinaPenicilinaAmpicilina
+Conjuntivite,Olhos vermelhos e lacrimejantes,Palpebras inchadas,Secrecao,Coceira,MaxitrolGarasone
+Infarto,Desmaio,Falta de ar,Tontura,Fraqueza,NitroglicerinaNitratos
+Febre Zica,Febrebaixa,Conjuntivite,Mialgia,Dor nas juntas,Paracetamoldipirona
