@@ -23,7 +23,9 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
+import org.json.JSONTokener;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
@@ -97,8 +99,8 @@ public class Sintomas extends AppCompatActivity {
 
         try {
             enviarDados(selecionados);
-            Intent intent = new Intent(this, PossivelDoenca.class);
-            startActivity(intent);
+            //Intent intent = new Intent(this, PossivelDoenca.class);
+            //startActivity(intent);
         } catch (Exception ex) {
             ex.printStackTrace();
             Toast.makeText(this, "Erro no envio:" + ex.getMessage(), Toast.LENGTH_LONG).show();
@@ -145,10 +147,20 @@ public class Sintomas extends AppCompatActivity {
         error.printStackTrace();
     }
 
+    //Inclui essas linhas
     private void tratarRespostaServidor(String jsonResp) {
-        Log.i("t", jsonResp);
-        Toast.makeText(this, "Resposta:" + jsonResp,
-                Toast.LENGTH_LONG).show();
+        try {
+            Log.i("t", jsonResp);
+            //Toast.makeText(this, "Resposta:" + jsonResp,
+            JSONObject obj = new JSONObject(jsonResp);
+            String doenca = obj.getString("to");
+            Intent intent = new Intent(this, PossivelDoenca.class);
+            intent.putExtra("doenca", doenca);
+            startActivity(intent);
+        }catch(JSONException e){
+            Log.e("Exception", "Execassao");
+        }
+
     }
 
 
