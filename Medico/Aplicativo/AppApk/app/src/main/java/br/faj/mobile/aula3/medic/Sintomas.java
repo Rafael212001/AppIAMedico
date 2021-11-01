@@ -121,7 +121,7 @@ public class Sintomas extends AppCompatActivity {
                     return "application/json; charset=utf-8";
                 }
                 @Override
-                
+
                 public byte[] getBody() throws AuthFailureError {
                     try {
                         return json.getBytes("utf-8");
@@ -154,7 +154,7 @@ public class Sintomas extends AppCompatActivity {
             Log.i("t", jsonResp);
             //Toast.makeText(this, "Resposta:" + jsonResp,
             JSONObject obj = new JSONObject(jsonResp);
-            String doenca = obj.getString("to");
+            String doenca = obj.getString("doenca");
             Intent intent = new Intent(this, PossivelDoenca.class);
             intent.putExtra("doenca", doenca);
             startActivity(intent);
