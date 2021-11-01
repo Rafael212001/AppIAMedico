@@ -153,8 +153,8 @@ public class Sintomas extends AppCompatActivity {
         try {
             Log.i("t", jsonResp);
             //Toast.makeText(this, "Resposta:" + jsonResp,
-            JSONObject obj = new JSONObject("jsonResp");
-            String doenca = obj.getString("doenca");
+            JSONObject obj = new JSONObject(jsonResp);
+            String doenca = new String(obj.toString());
             Intent intent = new Intent(this, PossivelDoenca.class);
             intent.putExtra("doenca", doenca);
             startActivity(intent);
