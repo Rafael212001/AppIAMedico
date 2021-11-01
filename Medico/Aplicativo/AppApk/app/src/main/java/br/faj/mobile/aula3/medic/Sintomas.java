@@ -121,6 +121,7 @@ public class Sintomas extends AppCompatActivity {
                     return "application/json; charset=utf-8";
                 }
                 @Override
+                
                 public byte[] getBody() throws AuthFailureError {
                     try {
                         return json.getBytes("utf-8");
