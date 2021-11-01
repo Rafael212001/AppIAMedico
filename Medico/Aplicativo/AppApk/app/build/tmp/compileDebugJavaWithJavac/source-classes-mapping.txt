@@ -2,12 +2,12 @@ br/faj/mobile/aula3/medic/JSON/RequestData.java
  br.faj.mobile.aula3.medic.JSON.RequestData
  br.faj.mobile.aula3.medic.JSON.RequestData$1
  br.faj.mobile.aula3.medic.JSON.RequestData$2
-br/faj/mobile/aula3/medic/PossivelDoenca.java
- br.faj.mobile.aula3.medic.PossivelDoenca
-br/faj/mobile/aula3/medic/BuildConfig.java
- br.faj.mobile.aula3.medic.BuildConfig
 br/faj/mobile/aula3/medic/ClassSintomas.java
  br.faj.mobile.aula3.medic.ClassSintomas
+br/faj/mobile/aula3/medic/BuildConfig.java
+ br.faj.mobile.aula3.medic.BuildConfig
+br/faj/mobile/aula3/medic/PossivelDoenca.java
+ br.faj.mobile.aula3.medic.PossivelDoenca
 br/faj/mobile/aula3/medic/Sintomas.java
  br.faj.mobile.aula3.medic.Sintomas
  br.faj.mobile.aula3.medic.Sintomas$1
