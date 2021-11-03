@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".PossivelDoenca">
+    tools:context=".PossivelDoenca"
+    android:background="@drawable/medial">
 
     <TextView
         android:layout_width="wrap_content"

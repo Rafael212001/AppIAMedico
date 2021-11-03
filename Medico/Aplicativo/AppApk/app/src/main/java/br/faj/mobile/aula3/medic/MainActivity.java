@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
         editor.putString("cpf", cpf);
         editor.commit();
 
+        validarCampos();
         Intent intent = new Intent(this, Sintomas.class);
         startActivity(intent);
     }
