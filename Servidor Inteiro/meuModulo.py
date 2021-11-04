@@ -1,8 +1,11 @@
+
+def mensagem():
+    print("Funcionando")
+
+
 def ia1(sintomas):
 
-    sintoma1 = sintomas['sintomas'][0]
-
-    return (sintoma1)
+    return print("Funcionando")
 
 def ia2(sintomas):
 

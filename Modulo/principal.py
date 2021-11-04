@@ -1,3 +1,0 @@
-import meuModulo
-
-meuModulo.mensagem()
