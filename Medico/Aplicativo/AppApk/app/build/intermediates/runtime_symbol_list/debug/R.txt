@@ -1354,6 +1354,7 @@ int drawable ic_mtrl_checked_circle 0x7f070077
 int drawable ic_mtrl_chip_checked_black 0x7f070078
 int drawable ic_mtrl_chip_checked_circle 0x7f070079
 int drawable ic_mtrl_chip_close_circle 0x7f07007a
+int drawable medial 0x7f070094
 int drawable mtrl_dialog_background 0x7f07007b
 int drawable mtrl_dropdown_arrow 0x7f07007c
 int drawable mtrl_ic_arrow_drop_down 0x7f07007d

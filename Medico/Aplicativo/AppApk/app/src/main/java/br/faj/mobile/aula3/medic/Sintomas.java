@@ -27,6 +27,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
@@ -149,18 +150,14 @@ public class Sintomas extends AppCompatActivity {
     }
 
     //Inclui essas linhas
-    private void tratarRespostaServidor(String jsonResp) {
-        try {
+    private void tratarRespostaServidor(String jsonResp)  {
+
             Log.i("t", jsonResp);
-            //Toast.makeText(this, "Resposta:" + jsonResp,
-            JSONObject obj = new JSONObject(jsonResp);
-            String doenca = new String(obj.toString());
+            //JSONObject jsonObj = new JSONObject(jsonResp);
+            //String doenca = jsonResp.getString("Doenca");
             Intent intent = new Intent(this, PossivelDoenca.class);
-            intent.putExtra("doenca", doenca);
+            intent.putExtra("doenca", jsonResp);
             startActivity(intent);
-        }catch(JSONException e){
-            Log.e("Exception", "Execassao");
-        }
 
     }
 
