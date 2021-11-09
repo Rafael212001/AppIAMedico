@@ -8,9 +8,11 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.text.Editable;
 
 
 
@@ -20,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     public EditText epeso;
     public EditText ecpf;
     boolean dados;
+    private TextWatcher cpfMask;
+
 
 
     @Override
@@ -27,9 +31,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         enome = (EditText) findViewById(R.id.Camponome);
         epeso = (EditText) findViewById(R.id.Campopeso);
         ecpf = (EditText) findViewById(R.id.CampoCPF);
+
+        cpfMask = Mask.insert("###.###.###-##", ecpf);
+        ecpf.addTextChangedListener(cpfMask);
+
+
     }
 
     public void validarCampos(){
@@ -53,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         if(res){
             AlertDialog.Builder dlg = new AlertDialog.Builder(this);
             dlg.setTitle("Aviso");
-            dlg.setMessage("Existem campos vazios!");
+            dlg.setMessage("Existem campos vazios! TODOS OSC AMPOS DEVEM SER PREENCHIDOS!");
             dlg.setNeutralButton("OK", null);
             dlg.show();
         }
@@ -76,9 +87,14 @@ public class MainActivity extends AppCompatActivity {
         editor.putString("cpf", cpf);
         editor.commit();
 
-        validarCampos();
-        Intent intent = new Intent(this, Sintomas.class);
-        startActivity(intent);
+        if(enome.getText().toString().trim().equals("") ||
+                epeso.getText().toString().trim().equals("") ||
+                ecpf.getText().toString().trim().equals("") ){
+            validarCampos();
+        }else {
+            Intent intent = new Intent(this, Sintomas.class);
+            startActivity(intent);
+        }
     }
 
 

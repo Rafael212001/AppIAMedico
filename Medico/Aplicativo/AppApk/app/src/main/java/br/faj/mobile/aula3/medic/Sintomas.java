@@ -98,13 +98,17 @@ public class Sintomas extends AppCompatActivity {
 
         Toast.makeText(this, "Resultado: "+total, Toast.LENGTH_LONG).show();
 
-        try {
-            enviarDados(selecionados);
-            //Intent intent = new Intent(this, PossivelDoenca.class);
-            //startActivity(intent);
-        } catch (Exception ex) {
-            ex.printStackTrace();
-            Toast.makeText(this, "Erro no envio:" + ex.getMessage(), Toast.LENGTH_LONG).show();
+        if(total == 4) {
+            try {
+                enviarDados(selecionados);
+                //Intent intent = new Intent(this, PossivelDoenca.class);
+                //startActivity(intent);
+            } catch (Exception ex) {
+                ex.printStackTrace();
+                Toast.makeText(this, "Erro no envio:" + ex.getMessage(), Toast.LENGTH_LONG).show();
+            }
+        }else{
+            Toast.makeText(this, "Você deve selecionar 4 doenças:", Toast.LENGTH_LONG).show();
         }
     }
 
