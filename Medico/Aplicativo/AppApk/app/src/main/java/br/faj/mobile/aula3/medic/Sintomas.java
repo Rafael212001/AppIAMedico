@@ -96,7 +96,7 @@ public class Sintomas extends AppCompatActivity {
         }
 
 
-        Toast.makeText(this, "Resultado: "+total, Toast.LENGTH_LONG).show();
+       // Toast.makeText(this, "Resultado: "+total, Toast.LENGTH_LONG).show();
 
         if(total == 4) {
             try {
@@ -108,7 +108,7 @@ public class Sintomas extends AppCompatActivity {
                 Toast.makeText(this, "Erro no envio:" + ex.getMessage(), Toast.LENGTH_LONG).show();
             }
         }else{
-            Toast.makeText(this, "Você deve selecionar 4 doenças:", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Você deve selecionar 4 sintomas:", Toast.LENGTH_LONG).show();
         }
     }
 

@@ -8,6 +8,9 @@ br/faj/mobile/aula3/medic/BuildConfig.java
  br.faj.mobile.aula3.medic.BuildConfig
 br/faj/mobile/aula3/medic/PossivelDoenca.java
  br.faj.mobile.aula3.medic.PossivelDoenca
+br/faj/mobile/aula3/medic/Mask.java
+ br.faj.mobile.aula3.medic.Mask
+ br.faj.mobile.aula3.medic.Mask$1
 br/faj/mobile/aula3/medic/Sintomas.java
  br.faj.mobile.aula3.medic.Sintomas
  br.faj.mobile.aula3.medic.Sintomas$1
