@@ -48,8 +48,9 @@ classifier = KNeighborsClassifier(n_neighbors=1)
 classifier.fit(trainX, trainY)
 
 y_pred = classifier.predict(testX)
-
-print(classification_report(testY, y_pred))
+print(testX)
+print(type(testX))
+#print(classification_report(testY, y_pred))
 
 import joblib
 #from sklearn.externals import joblib
