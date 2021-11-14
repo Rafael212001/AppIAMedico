@@ -43,24 +43,45 @@ public class Sintomas extends AppCompatActivity {
 
 
 
+        //add
         List<ClassSintomas> list = new ArrayList<>();
-        list.add(new ClassSintomas("confusao mental"));
-        list.add(new ClassSintomas("alteracao na visao"));
-        list.add(new ClassSintomas("fraqueza"));
-        list.add(new ClassSintomas("alteracao na fala"));
-        list.add(new ClassSintomas("Tosse"));
-        list.add(new ClassSintomas("Congestao nasal"));
-        list.add(new ClassSintomas("Dor de cabeça"));
-        list.add(new ClassSintomas("Dor de garganta"));
-        list.add(new ClassSintomas("Febre"));
-        list.add(new ClassSintomas("Dor no corpo"));
-        list.add(new ClassSintomas("Manchas"));
-        list.add(new ClassSintomas("Dor no peito"));
-        list.add(new ClassSintomas("Falta de ar"));
-        list.add(new ClassSintomas("Enjoo"));
-        list.add(new ClassSintomas("Diarreia"));
-        list.add(new ClassSintomas("Vomito"));
-        list.add(new ClassSintomas("Desmaio"));
+        list.add(new ClassSintomas("Coceira", 51));
+        list.add(new ClassSintomas("Erupção cutânea", 52));
+        list.add(new ClassSintomas("Erupcoes cutaneas nodais", 53));
+        list.add(new ClassSintomas("Manchas discromicas", 54));
+        list.add(new ClassSintomas("Espirros continuos", 55));
+        list.add(new ClassSintomas("Tremores", 56));
+        list.add(new ClassSintomas("Calafrios", 57));
+        list.add(new ClassSintomas("Lacrimejamento", 58));
+        list.add(new ClassSintomas("Dor de estomago", 59));
+        list.add(new ClassSintomas("Acidez", 60));
+
+        list.add(new ClassSintomas("Ulceras na lingua", 61));
+        list.add(new ClassSintomas("Vômito", 62));
+        list.add(new ClassSintomas("Pele amarelada", 63));
+        list.add(new ClassSintomas("Nausea", 64));
+        list.add(new ClassSintomas("Queimacao na micção", 65));
+        list.add(new ClassSintomas("Perda de apetite", 66));
+        list.add(new ClassSintomas("Dor abdominal", 67));
+        list.add(new ClassSintomas("Gases", 68));
+        list.add(new ClassSintomas("Perda de massa muscular", 69));
+        list.add(new ClassSintomas("Manchas na garganta", 70));
+
+        list.add(new ClassSintomas("Febre alta", 71));
+        list.add(new ClassSintomas("Contatos extraconjugais", 72));
+        list.add(new ClassSintomas("Fadiga", 73));
+        list.add(new ClassSintomas("Perda de peso", 74));
+        list.add(new ClassSintomas("Inquietação", 75));
+        list.add(new ClassSintomas("Nível de açucar irregular", 76));
+        list.add(new ClassSintomas("Olhos fundos", 77));
+        list.add(new ClassSintomas("Desidratação", 78));
+        list.add(new ClassSintomas("Diarréia", 79));
+        list.add(new ClassSintomas("Tosse", 80));
+
+        list.add(new ClassSintomas("Falta de ar", 81));
+        list.add(new ClassSintomas("Acidez", 82));
+
+
 
 
 
@@ -182,7 +203,10 @@ public class Sintomas extends AppCompatActivity {
             //JSONObject sObj = new JSONObject();
            //sObj.put("nome", s.getNome());
             //sObj.put("valor", 4);
-            sintomasArray.put(s.getNome());
+            //sintomasArray.put(s.getNome());
+
+            //add
+            sintomasArray.put(s.getNumero());
         }
         jsonObj.put("sintomas", sintomasArray);
         return jsonObj.toString();

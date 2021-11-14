@@ -13,15 +13,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6427d38c-1914-4e0a-b585-1fb7542b1599" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/ClassSintomas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/ClassSintomas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\ingri\.android\avd\Pixel_XL_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Rafael Ferreira\.android\avd\Pixel_5_API_25.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -227,117 +228,117 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>90</line>
+          <line>111</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>89</line>
+          <line>110</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>195</line>
+          <line>219</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>155</line>
+          <line>176</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>124</line>
+          <line>145</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>125</line>
+          <line>146</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>126</line>
+          <line>147</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>127</line>
+          <line>148</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>154</line>
+          <line>175</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>162</line>
+          <line>183</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>167</line>
+          <line>188</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>163</line>
+          <line>184</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>164</line>
+          <line>185</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>165</line>
+          <line>186</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>166</line>
+          <line>187</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>102</line>
+          <line>123</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>100</line>
+          <line>121</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>117</line>
+          <line>138</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>119</line>
+          <line>140</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>120</line>
+          <line>141</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>121</line>
+          <line>142</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>122</line>
+          <line>143</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
-          <line>161</line>
+          <line>182</line>
           <properties class="br.faj.mobile.aula3.medic.Sintomas" />
           <option name="timeStamp" value="21" />
         </line-breakpoint>

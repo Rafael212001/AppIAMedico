@@ -10,6 +10,8 @@ import java.util.ArrayList;
 
 public class ClassSintomas {
     public String nome;
+    //add
+    public int numero;
     List<String> sintomas = new ArrayList<>();
 
     public String getJson() throws JSONException{
@@ -31,9 +33,13 @@ public class ClassSintomas {
         }
     }
 
-    public ClassSintomas(String n) {
+    public ClassSintomas(String n, int u) {
         this.nome = n;
+        //add
+        this.numero = u;
     }
+
+
 
     @Override
     public String toString() {
@@ -54,5 +60,13 @@ public class ClassSintomas {
 
     public void setSintomas(List<String> sintomas) {
         this.sintomas = sintomas;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
     }
 }
