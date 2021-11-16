@@ -93,8 +93,8 @@ irismodel = LogisticRegression()
 
 irismodel.fit(X_train,y_train)
 
-predito = irismodel.predict(sintomas)
-print(predito) 
+predito = irismodel.predict(X_test)
+
 y_test[0:10]
 
 predito[0:10]
@@ -115,4 +115,4 @@ print(classification_report(y_test,predito,y_test.Doenca.unique()))
 
 import joblib
 #from sklearn.externals import joblib
-joblib.dump(irismodel, 'my_model_knn.pkl.pkl')
+joblib.dump(irismodel, 'minhaIA.pkl.pkl')
