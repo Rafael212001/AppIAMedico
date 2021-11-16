@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         if(res){
             AlertDialog.Builder dlg = new AlertDialog.Builder(this);
             dlg.setTitle("Aviso");
-            dlg.setMessage("Existem campos vazios! TODOS OSC AMPOS DEVEM SER PREENCHIDOS!");
+            dlg.setMessage("Existem campos vazios! TODOS OS CAMPOS DEVEM SER PREENCHIDOS!");
             dlg.setNeutralButton("OK", null);
             dlg.show();
         }

@@ -15,6 +15,8 @@
     <list default="true" id="6427d38c-1914-4e0a-b585-1fb7542b1599" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/PossivelDoenca.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/PossivelDoenca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,6 +331,21 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>
           <line>164</line>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/PossivelDoenca.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/PossivelDoenca.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/PossivelDoenca.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/br/faj/mobile/aula3/medic/Sintomas.java</url>

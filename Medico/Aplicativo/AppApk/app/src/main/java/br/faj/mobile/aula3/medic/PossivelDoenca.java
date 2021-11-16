@@ -22,5 +22,13 @@ public class PossivelDoenca extends AppCompatActivity {
             String doenca = extras.getString("doenca");
             txt.setText(doenca);
         }
+
+
+        if(txt.getText().toString().trim().equals(8)){
+            txt.setText("Oito");
+        }
+
+
+
     }
 }
