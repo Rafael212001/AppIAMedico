@@ -19,14 +19,18 @@ public class PossivelDoenca extends AppCompatActivity {
         txt = (TextView) findViewById(R.id.Txtdoenca);
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            String doenca = extras.getString("doenca");
+           // String doenca = extras.getString("doenca");
+            String doencaId = extras.getString("doenca");
+            String doenca = "";
+
+            if(doencaId.equals("7")){
+                doenca = "Oiee";
+            }
             txt.setText(doenca);
         }
 
 
-        if(txt.getText().toString().trim().equals(8)){
-            txt.setText("Oito");
-        }
+
 
 
 
