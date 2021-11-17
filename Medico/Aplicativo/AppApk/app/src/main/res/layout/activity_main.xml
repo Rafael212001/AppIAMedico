@@ -28,14 +28,14 @@
         android:layout_width="255dp"
         android:layout_height="58dp"
         android:inputType="number"
-        android:hint="Peso"></EditText>
+        android:hint="Peso(kg)"></EditText>
 
     <EditText
         android:id="@+id/CampoCPF"
         android:layout_width="255dp"
         android:layout_height="58dp"
         android:inputType="number"
-        android:hint="CPF"></EditText>
+        android:hint="CPF(000.0000.000-00)"></EditText>
 
     <Button
         android:id="@+id/btAvancar"
