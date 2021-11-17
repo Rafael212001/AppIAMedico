@@ -22,10 +22,10 @@ Softawares -> Android Studio, VS code, Jupyter notebook, Postman.
 8º Sua doença aprecerá na proxiama tela de acordo com os sintomas selecionados.
 
 # Proximos objetivos
-Fazer IA passar a possivel doença
-Gerar um PDF da receita médica
-Finalizar o servidor
-Finalizar o arquivo CSV
+Melhorar a Acuracia da IA
+Preencher com mais doenças o Dataset
+Aprimorar o servidor
+Fazer a Aplicativo gerar um PDF receitando um remedio para a possivel doença para o usuario. 
 
 # Autores e professor
 Bruno F. Silva /
