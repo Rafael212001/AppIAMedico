@@ -9,7 +9,7 @@ O Usuario coloca suas informações no aplicativo (nome, peso em KG e CPF) lembr
 
 # Tecnologias utilizadas
 Linguagens -> Python, Java, -> 
-Softawares -> Android Studio, VS code, Jupyter notebook, Postman.
+Softawares -> Android Studio (https://developer.android.com/studio?hl=pt&gclid=Cj0KCQjwg7KJBhDyARIsAHrAXaH-_VebSElFQltspYc5gf1aE0-Se6_5S1Bw85_qwzDZXpSlOYLmYd0aAmESEALw_wcB&gclsrc=aw.ds), VS code (https://code.visualstudio.com/download), Jupyter notebook (https://www.anaconda.com/products/individual), Postman (https://www.postman.com/) .
 
 # Como executar o projeto
 1º Faça o download do Android Studio na versão 3.1.25 
