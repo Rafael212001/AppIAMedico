@@ -5,7 +5,7 @@ Aplicativo que usa uma IA para descobrir possivel doença do paciente
 Nosso aplicativo tem como objetivo ajudar os usuarios a descobrirem a possivel doença que eles tem através de seus sintomas
 
 # Como funciona
-O Usuario coloca suas informações no aplicativo e em seguida seleciona 4 sintomas , assim com a ajuda de uma IA ela ira receber esses sintomas e "devolver" ao usuario sua possivel doença
+O Usuario coloca suas informações no aplicativo (nome, peso em KG e CPF) lembrando que todos os campos devem ser preenchidos, logos após clicar no botão avançar o usuario ser´levado a tela de sintomas onde ele deve obrigaoriamente escolher 4 sintomas disponiveis em uma lista, depois de escolher os 4 sintoms e clicar em avançar o usuario ira para a tela de possiveis doenças onde aparecerá na tela a sua porrivel doença de acordo com os sintomas escolhidos.
 
 # Tecnologias utilizadas
 Linguagens -> Python, Java, -> 
