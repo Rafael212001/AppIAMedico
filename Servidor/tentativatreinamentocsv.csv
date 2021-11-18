@@ -1,0 +1,201 @@
+Doenca,Sintoma_1,Sintoma_2,Sintoma_3,Sintoma_4
+1,51,52,53,54
+1,52,53, 54,0
+1,51,53,54,0
+1,51,52,54,0
+1,51,52,53,0
+1,52, 53,54,0
+1,51,53,54,0
+1,51,52, 54,0
+1,51,52,53,0
+1,51,52,53, 54
+2,55,56,57,58
+2,56,57,58,0
+2,55,57,58,0
+2,55,56,58,0
+2,55,56,57,0
+2,56,57,58,0
+2,55,57,58,0
+2,55,56,58,0
+2,55,56,57,0
+2,55,56,57,58
+3,59,60,61,62
+3,60,61,62,0
+3,59,61,62,0
+3,59,acide,62,0
+3,59,60,61,0
+3,60,61,62,0
+3,59,61,62,0
+3,59,acide,62,0
+3,59,60,61,0
+3,59,60,61,62
+4,51,62,63,64
+4,62,63,64,0
+4,51,63,64,0
+4,51,62,64,0
+4,51,62,63,0
+4,62,63,64,0
+4,51,63,64,0
+4,51,62,64,0
+4,51,62,63,0
+4,51,62,63,64
+5,51,52,59,65
+5,52,59,65,0
+5,51,59,65,0
+5,51,52,65,0
+5,51,52,59,0
+5,52,59,65,0
+5,51,59,65,0
+5,51,52,65,0
+5,51,52,59,0
+5,51,52,59,65
+6,62, 66,67,68
+6,66,67,68,0
+6,62,67,68,0
+6,62, 66,68,0
+6,62, 66,67,0
+6,66,67,68,0
+6,62,67,68,0
+6,62, 66,68,0
+6,62, 66,67,0
+6,62, 66,67,68
+7,69,70,71,72
+7,70,71,72,0
+7,69,71,72,0
+7,69,70,72,0
+7,69,70,71,0
+7,70,71,72,0
+7,69,71,72,0
+7,69,70,72,0
+7,69,70,71,0
+7,69,70,71,72
+8,73,74,75,76
+8,74,75,76,0
+8,73,75,76,0
+8,73,74,76,0
+8,73,74,75,0
+8,74,75,76,0
+8,73,75,76,0
+8,73,74,76,0
+8,73,74,75,0
+8,73,74,75,76
+9,62,77,78,79
+9,77,78,79,0
+9,62,78,79,0
+9,62,77,79,0
+9,62,77,78,0
+9,77,78,79,0
+9,62,78,79,0
+9,62,77,79,0
+9,62,77,78,0
+9,62,77,78,79
+10,73,80,71,81
+10,80,71,81,0
+10,73,71,81,0
+10,73,80,81,0
+10,73,80,71,0
+10,80,71,81,0
+10,73,71,81,0
+10,73,80,81,0
+10,73,80,71,0
+10,73,80,71,81
+Hipertensao,dor de cabeca,dor no peito,tontura,falta de concentracao
+Hipertensao,dor no peito,tontura,falta de concentracao,0
+Hipertensao,dor de cabeca,tontura,Falta de concentracao,0
+Hipertensao,dor de cabeca,dor no peito,falta de concentracao,0
+Hipertensao,dor de cabeca,dor no peito,tontura,0
+Hipertensao,dor de cabeca,dor no peito,tontura,falta de concentracao
+Hipertensao,dor no peito,tontura,falta de concentracao,0
+Hipertensao,dor de cabeca,tontura,Falta de concentracao,0
+Hipertensao,dor de cabeca,dor no peito,falta de concentracao,0
+Hipertensao,dor de cabeca,dor no peito,tontura,0
+Enxaqueca,acidez,indigestao,dor de cabeca,irritabilidade
+Enxaqueca,indigestao,dor de cabeca,irritabilidade,0
+Enxaqueca,acidez,dor de cabeca,irritabilidade,0
+Enxaqueca,acidez,indigestao,irritabilidade,0
+Enxaqueca,acidez,indigestao,dor de cabeca,0
+Enxaqueca,acidez,indigestao,dor de cabeca,irritabilidade
+Enxaqueca,indigestao,dor de cabeca,irritabilidade,0
+Enxaqueca,acidez,dor de cabeca,irritabilidade,0
+Enxaqueca,acidez,indigestao,irritabilidade,0
+Enxaqueca,acidez,indigestao,dor de cabeca,0
+Espondilose cervical,dor nas costas,fraqueza,dor de pescoco,tontura
+Espondilose cervical,fraqueza,dor de pescoco,tontura,0
+Espondilose cervical,dor nas costas,dor de pescoco,tontura,0
+Espondilose cervical,dor nas costas,fraqueza,tontura,0
+Espondilose cervical,dor nas costas,fraqueza,dor de pescoco,0
+Espondilose cervical,dor nas costas,fraqueza,dor de pescoco,tontura
+Espondilose cervical,fraqueza,dor de pescoco,tontura,0
+Espondilose cervical,dor nas costas,dor de pescoco,tontura,0
+Espondilose cervical,dor nas costas,fraqueza,tontura,0
+Espondilose cervical,dor nas costas,fraqueza,dor de pescoco,0
+Paralisia,dor de cabeca,vomitando,fraqueza,fraqueza no corpo
+Paralisia,vomitando,fraqueza,fraqueza no corpo,0
+Paralisia,dor de cabeca,fraqueza,fraqueza no corpo,0
+Paralisia,dor de cabeca,vomitando,fraqueza no corpo,0
+Paralisia,dor de cabeca,vomitando,fraqueza,0
+Paralisia,dor de cabeca,vomitando,fraqueza,fraqueza no corpo
+Paralisia,vomitando,fraqueza,fraqueza no corpo,0
+Paralisia,dor de cabeca,fraqueza,fraqueza no corpo,0
+Paralisia,dor de cabeca,vomitando,fraqueza no corpo,0
+Paralisia,dor de cabeca,vomitando,fraqueza,0
+Ictericia,coceira,fadiga,vomitando,pele amarelada
+Ictericia,fadiga,vomitando,pele amarelada,0
+Ictericia,coceira,vomitando,pele amarelada,0
+Ictericia,coceira,fadiga,pele amarelada,0
+Ictericia,coceira,fadiga,vomitando,0
+Ictericia,coceira,fadiga,vomitando,pele amarelada
+Ictericia,fadiga,vomitando,pele amarelada,0
+Ictericia,coceira,vomitando,pele amarelada,0
+Ictericia,coceira,fadiga,pele amarelada,0
+Ictericia,coceira,fadiga,vomitando,0
+Malaria,arrepios,vomitando,suando,dor de cabeca
+Malaria,vomitando,suando,dor de cabeca,0
+Malaria,arrepios,suando,dor de cabeca,0
+Malaria,arrepios,vomitando,dor de cabeca,0
+Malaria,arrepios,vomitando,suando,0
+Malaria,arrepios,vomitando,suando,dor de cabeca
+Malaria,vomitando,suando,dor de cabeca,0
+Malaria,arrepios,suando,dor de cabeca,0
+Malaria,arrepios,vomitando,dor de cabeca,0
+Malaria,arrepios,vomitando,suando,0
+Catapora,coceira,fadiga,letargia,mal estar
+Catapora,fadiga,letargia,mal estar,0
+Catapora,coceira,letargia,mal estar,0
+Catapora,coceira,fadiga,mal estar,0
+Catapora,coceira,fadiga,letargia,0
+Catapora,coceira,fadiga,letargia,mal estar
+Catapora,fadiga,letargia,mal estar,0
+Catapora,coceira,letargia,mal estar,0
+Catapora,coceira,fadiga,mal estar,0
+Catapora,coceira,fadiga,letargia,0
+Dengue,arrepios,vomitando,fadiga,nausea
+Dengue,vomitando,fadiga,nausea,0
+Dengue,arrepios,fadiga,nausea,0
+Dengue,arrepios,vomitando,nausea,0
+Dengue,arrepios,vomitando,fadiga,0
+Dengue,arrepios,vomitando,fadiga,nausea
+Dengue,vomitando,fadiga,nausea,0
+Dengue,arrepios,fadiga,nausea,0
+Dengue,arrepios,vomitando,nausea,0
+Dengue,arrepios,vomitando,fadiga,0
+Tifoide,arrepios,vomitando,fadiga,nausea
+Tifoide,vomitando,fadiga,nausea,0
+Tifoide,arrepios,fadiga,nausea,0
+Tifoide,arrepios,vomitando,nausea,0
+Tifoide,arrepios,vomitando,fadiga,0
+Tifoide,arrepios,vomitando,fadiga,nausea
+Tifoide,vomitando,fadiga,nausea,0
+Tifoide,arrepios,fadiga,nausea,0
+Tifoide,arrepios,vomitando,nausea,0
+Tifoide,arrepios,vomitando,fadiga,0
+Hepatite A,dor nas articulacoes,vomitando,urina escura,nausea
+Hepatite A,vomitando,urina escura,nausea,0
+Hepatite A,dor nas articulacoes,urina escura,nausea,0
+Hepatite A,dor nas articulacoes,vomitando,nausea,0
+Hepatite A,dor nas articulacoes,vomitando,urina escura,0
+Hepatite A,dor nas articulacoes,vomitando,urina escura,nausea
+Hepatite A,vomitando,urina escura,nausea,0
+Hepatite A,dor nas articulacoes,urina escura,nausea,0
+Hepatite A,dor nas articulacoes,vomitando,nausea,0
+Hepatite A,dor nas articulacoes,vomitando,urina escura,0
