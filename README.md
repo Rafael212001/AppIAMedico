@@ -12,7 +12,7 @@ Linguagens -> Python, Java, ->
 Softawares -> Android Studio (https://developer.android.com/studio?hl=pt&gclid=Cj0KCQjwg7KJBhDyARIsAHrAXaH-_VebSElFQltspYc5gf1aE0-Se6_5S1Bw85_qwzDZXpSlOYLmYd0aAmESEALw_wcB&gclsrc=aw.ds), VS code (https://code.visualstudio.com/download), Jupyter notebook (https://www.anaconda.com/products/individual), Postman (https://www.postman.com/) .
 
 # Como executar o projeto
-1º Faça o download do Android Studio na versão 3.1.25 
+1º Faça o download do Android Studio na versão 3.1.25 com build grandle 7.0.3 -> 'com.android.tools.build:gradle:7.0.3'
 2º Faça o dowload do Jupyter notebook 
 3º Caso você queira vizualizar a IA com a ajuda do Jupyter notebook execute o arquivo "testenumeros.py" que se encontra na pasta IA
 4º Para executar o servidor voce pode executar pelo Jupter para isso execute o arquivo "servidor.py" ou va ate o CMD entre nas pasta onde esta o arquivo, depois no CMD execute o comando: python servidor.py e espero o o servidor iniciar que se encontra nas pasta servidor.
