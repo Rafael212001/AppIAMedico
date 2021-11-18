@@ -14,9 +14,9 @@ Softawares -> Android Studio (https://developer.android.com/studio?hl=pt&gclid=C
 # Como executar o projeto
 1º Faça o download do Android Studio na versão 3.1.25 
 2º Faça o dowload do Jupyter notebook 
-3º Caso você queira vizualizar a IA com a ajuda do Jupyter notebook execute o arquivo "testenumeros.py"
-4º Para executar o servidor voce pode executar pelo Jupter para isso execute o arquivo "servidor.py" ou va ate o CMD entre nas pasta onde esta o arquivo, depois no CMD execute o comando: python servidor.py e espero o o servidor iniciar.
-5º Abra o android Studio e execute o arquivo AppApk
+3º Caso você queira vizualizar a IA com a ajuda do Jupyter notebook execute o arquivo "testenumeros.py" que se encontra na pasta IA
+4º Para executar o servidor voce pode executar pelo Jupter para isso execute o arquivo "servidor.py" ou va ate o CMD entre nas pasta onde esta o arquivo, depois no CMD execute o comando: python servidor.py e espero o o servidor iniciar que se encontra nas pasta servidor.
+5º Abra o android Studio e execute o arquivo AppApk que se encontra na pasta aplicativo.
 6º Preencha todos os campos da primira tela Nome, Peso e CPF não pode faltar nenhum e clique em avançar
 7º Selecione 4 sintomas disponiveis na lista e clique em avançar
 8º Sua doença aprecerá na proxiama tela de acordo com os sintomas selecionados.
